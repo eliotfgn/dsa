@@ -1,4 +1,4 @@
-class Node:
-    def __init__(self, data, next=None) -> None:
-        self.data = data
+class ListNode:
+    def __init__(self, data=0, next=None) -> None:
+        self.val = data
         self.next = next
