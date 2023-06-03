@@ -1,6 +1,6 @@
 class Solution:
     def firstMissingPositive(self, nums: list[int]) -> int:
-        nums = sorted(set(nums))
+        nums.sort(set(nums))
         smallest = 1
 
         for i in range(len(nums)):
@@ -13,6 +13,11 @@ class Solution:
                 return smallest
 
         return smallest
+    
+
+    def firstMissingPositiveOptimized(self, nums: list[int]) -> int:
+        smallest = 1
+        
 
 
 sol = Solution()

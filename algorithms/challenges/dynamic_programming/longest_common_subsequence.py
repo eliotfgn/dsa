@@ -5,3 +5,5 @@ class Solution:
 
 sol = Solution()
 sol.longestCommonSubsequence("abc", "abc")
+def test:
+    ...
